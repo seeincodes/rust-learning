@@ -1,5 +1,8 @@
 fn main() {
-    const SECONDS_IN_MINUTES: u32 = 60;
+    let tup: (i32, bool, char) = (1, true, 'c');
 
-    println!("In Seconds : {}", SECONDS_IN_MINUTES);
+    println!("tup is : {:?}", tup);
+    
+    println!("tup at index 0 : {}", tup.0);
+
 }
